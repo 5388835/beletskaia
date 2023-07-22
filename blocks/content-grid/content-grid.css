@@ -1,0 +1,34 @@
+.content-grid {
+  grid-area: main;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    'photo .'
+    'photo .'
+    'photo description'
+    'photo .'
+    'photo appointment'
+    'photo .'
+    'photo social'
+    'photo .'
+    'photo .';
+  max-width: 100rem; /* 1600px */
+  min-width: 20rem; /* 320px */
+  margin: 0;
+  padding: 0;
+  row-gap: clamp(0.5rem, 0.2vw + 1rem, 0.7rem);
+}
+
+@media (max-width: 767px) {
+  .content-grid {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'photo'
+      'description'
+      'appointment'
+      'social';
+    max-width: 47.5rem; /* 760px */
+    min-width: 20rem; /* 320px */
+  }
+}

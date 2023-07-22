@@ -1,0 +1,20 @@
+.photo__main-illustration {
+  max-width: 74rem; /* 1184px */
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1279px) {
+  .photo__main-illustration {
+    max-width: 58rem; /* 928px */
+  }
+}
+
+@media (max-width: 767px) {
+  .photo__main-illustration {
+    max-width: 47.5rem; /* 760px */
+    min-width: 20rem; /* 320px */
+  }
+}

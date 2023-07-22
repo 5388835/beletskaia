@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  padding: 0.2rem;
+  border: 0.07rem solid #bfc0c0;
+  border-radius: 0.3rem;
+  background-color: transparent;
+  color: #393e41;
+  text-decoration: none;
+  font-size: clamp(0.7rem, 0.5vw + 1rem, 1.4rem);
+  transition: background-color 1s ease, border-color 1s ease;
+}
+
+.button:hover {
+  color: #c03221;
+  background-color: #ffffff;
+  border-color: #c03221;
+}

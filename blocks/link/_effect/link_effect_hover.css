@@ -1,0 +1,6 @@
+.link_effect_hover:hover {
+  color: #c03221;
+  opacity: 0.8;
+  transition: opacity 1s ease;
+  text-decoration-color: #c03221;
+}

@@ -1,0 +1,6 @@
+.social {
+  grid-area: social;
+  box-sizing: border-box;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}

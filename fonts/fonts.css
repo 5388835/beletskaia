@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'PTSansWebCaption';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('PT-Sans_Caption-Regular.woff2') format('woff2'),
+    url('PT-Sans_Caption-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PTSansWebCaption';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('PT-Sans_Caption-Bold.woff2') format('woff2'),
+    url('PT-Sans_Caption-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PTSansWebCaption';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('PT-Sans_Italic.woff2') format('woff2'),
+    url('PT-Sans_Italic.woff') format('woff');
+}

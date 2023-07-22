@@ -1,0 +1,23 @@
+.page-grid {
+  display: grid;
+  grid-template-areas:
+    'main header'
+    'main .'
+    'main footer';
+  max-width: 100rem; /* 1600px */
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .page-grid {
+    max-width: 47.5rem; /* 760px */
+    min-width: 20rem; /* 320px */
+    grid-template-areas:
+      'main main'
+      'header footer';
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+}
