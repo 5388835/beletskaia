@@ -11,6 +11,7 @@
 @import url('../blocks/photo/photo.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/modal-window/modal-window.css');
 @import url('../blocks/description/__mark/description__mark.css');
 @import url('../blocks/description/__text/description__text.css');
 @import url('../blocks/description/__text/description__text_inline.css');
